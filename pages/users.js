@@ -12,7 +12,7 @@ function Users({users}) {
 	// }, []);
 	return (
 		<MainLayout title='Users List Page'>
-			<h1>Users List</h1>
+			<h1>Users List:</h1>
 			{users &&
 				users.map((user) => (
 					<li key={user.id}>
